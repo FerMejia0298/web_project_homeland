@@ -1,0 +1,31 @@
+.header {
+  padding: 34px 0 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.header__logo {
+  width: 254px;
+}
+
+/* tablet */
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 30px 0 80px;
+  }
+
+  .header__logo {
+    width: 220px;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 20px 0 50px;
+  }
+
+  .header__logo {
+    width: 188px;
+  }
+}
